@@ -12,4 +12,4 @@ jobs:
         run: chmod +x ./hyperexecute
         
       - name: run test
-        run: ./hyperexecute --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/linux/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
+        run: ./hyperexecute --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/mac/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
