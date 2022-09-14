@@ -6,6 +6,6 @@ pool:
 
 steps:
 - script: |
-    chmod +x ./hyperexecute_mac
-    ./hyperexecute_mac --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/mac/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
+    chmod +x ./hyperexecute
+    ./hyperexecute --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/mac/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
   displayName: 'run HE test'
