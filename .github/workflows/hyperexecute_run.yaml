@@ -8,5 +8,8 @@ jobs:
       - name: 'Checkout GitHub Action'
         uses: actions/checkout@main
         
+      - name: 'provide access to file'
+        run: chmod +x ./hyperexecute_linux
+        
       - name: run test
         run: ./hyperexecute_linux --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/linux/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
