@@ -6,6 +6,5 @@ pool:
 
 steps:
 - script: |
-    chmod u+x hyperexecute.exe
-    ./hyperexecute.exe --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/win/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
+    hyperexecute.exe --user himanshigupta --key mieWXJBENSSzM4OZ8Lav439gUxq9pYmKKGlf7yxigqpI37CIcN --config yaml/win/pytest_hyperexecute_autosplit_sample.yaml --env stage --verbose
   displayName: 'run HE test'
